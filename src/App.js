@@ -1,8 +1,8 @@
-import { TodoCounter } from "./TodoCounter";
-import { TodoSearch } from "./TodoSearch";
-import { TodoList } from "./TodoList";
-import { TodoItem } from "./TodoItem";
-import { CreateTodoBtn } from "./CreateTodoBtn";
+import { TodoCounter } from "./js/TodoCounter";
+import { TodoSearch } from "./js/TodoSearch";
+import { TodoList } from "./js/TodoList";
+import { TodoItem } from "./js/TodoItem";
+import { CreateTodoBtn } from "./js/CreateTodoBtn";
 import React from "react";
 
 const defaultTodos = [
