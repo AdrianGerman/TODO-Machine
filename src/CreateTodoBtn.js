@@ -1,5 +1,5 @@
 function CreateTodoBtn() {
-  return <button>German</button>;
+  return <button>+</button>;
 }
 
 export { CreateTodoBtn };
