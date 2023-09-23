@@ -12,8 +12,6 @@ Aplicación de tareas creada con React.js
 
 ## Instalación
 
-npm install
-nmp i
-npm start
-
-s
+- npm install
+- nmp i
+- npm start
