@@ -25,7 +25,9 @@ function useLocalStorage(itemName, initialValue) {
         setError(true);
       }
     }, 2000);
-  });
+  }, []);
+  // nomas es para depurar errores, no olvidar el arreglo de arriba o se crean bucles bien perrones
+  // console.log("a");
 
   const saveItem = (newItem) => {
     localStorage.setItem(itemName, JSON.stringify(newItem));
