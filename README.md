@@ -2,6 +2,14 @@
 
 Aplicación de tareas creada con React.js
 
+# ¿Como ejecuto este proyecto?
+
+## Instalación
+
+- npm install
+- nmp i
+- npm start
+
 ## Tabla de contenido
 
 - [Instalación](#instalación)
@@ -9,9 +17,3 @@ Aplicación de tareas creada con React.js
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Contribución](#contribución)
 - [Licencia](#licencia)
-
-## Instalación
-
-- npm install
-- nmp i
-- npm start
