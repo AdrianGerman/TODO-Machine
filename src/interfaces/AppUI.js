@@ -21,8 +21,8 @@ function AppUI({
   deleteTodo,
 }) {
   return (
-    <React.Fragment>
-      {/* <> */}
+    // <React.Fragment>
+    <>
       <TodoCounter completed={completedTodos} total={totalTodos} />
       <TodoSearch searchValue={searchValue} setSearchValue={setSearchValue} />
 
@@ -49,8 +49,8 @@ function AppUI({
       </TodoList>
 
       <CreateTodoBtn />
-    </React.Fragment>
-    // </>
+      {/* </React.Fragment> */}
+    </>
   );
 }
 
