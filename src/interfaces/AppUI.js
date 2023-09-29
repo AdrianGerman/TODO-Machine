@@ -50,7 +50,7 @@ function AppUI() {
         ))}
       </TodoList>
 
-      <CreateTodoBtn />
+      <CreateTodoBtn setOpenModal={setOpenModal} />
       {/* </React.Fragment> */}
 
       {openModal && <Modal>Me guastan las burgers</Modal>}

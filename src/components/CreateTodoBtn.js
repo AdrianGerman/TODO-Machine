@@ -1,14 +1,15 @@
 import "../styles/CreateTodoBtn.css";
 
-function CreateTodoBtn() {
+function CreateTodoBtn({ setOpenModal }) {
   return (
     <button
       className="CreateTodoBtn"
-      onClick={(event) => {
-        console.log("Le diste click");
-        // console.log(event.target);
+      onClick={() => {
+        setOpenModal((state) => !state);
       }}
-    >+</button>
+    >
+      +
+    </button>
   );
 }
 
