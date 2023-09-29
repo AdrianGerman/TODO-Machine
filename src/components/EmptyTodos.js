@@ -1,5 +1,5 @@
 function EmptyTodos() {
-  return <p>No estoy seguro que debo poner aqui :)</p>;
+  return <p>No se encontró ningún resultado en tu búsqueda</p>;
 }
 
 export { EmptyTodos };

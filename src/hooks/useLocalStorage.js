@@ -25,7 +25,7 @@ function useLocalStorage(itemName, initialValue) {
         setError(true);
       }
     }, 2000);
-  }, []);
+  }, [initialValue, itemName]);
   // nomas es para depurar errores, no olvidar el arreglo de arriba o se crean bucles bien perrones
   // console.log("a");
 
@@ -53,4 +53,4 @@ export { useLocalStorage };
 //   { text: "Dormir mas de 45 horas en un solo día", completed: false },
 // ];
 
-// localStorage.setItem('TODOS_V1', JSON.stringify(defaultTodos));
+// localStorage.setItem("TODOS_V1", JSON.stringify(defaultTodos));
