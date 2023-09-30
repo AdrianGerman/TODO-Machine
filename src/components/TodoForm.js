@@ -3,14 +3,18 @@ import "../styles/TodoForm.css";
 
 function TodoForm() {
   return (
-    <form>
+    <form
+      onSubmit={(event) => {
+        event.preventDefault();
+      }}
+    >
       <label>Escribe tu nuevo TODO</label>
       <textarea placeholder="Escribe tu texto" />
       <div className="TodoForm-buttonContainer">
-        <button className="TodoForm-button TodoForm-button--cancel">
+        <button type="" className="TodoForm-button TodoForm-button--cancel">
           Cancelar
         </button>
-        <button className="TodoForm-button TodoForm-button--add">
+        <button type="submit" className="TodoForm-button TodoForm-button--add">
           Agregar
         </button>
       </div>
