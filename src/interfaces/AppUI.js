@@ -9,6 +9,7 @@ import { EmptyTodos } from "../components/EmptyTodos";
 // import { EmptyTodosNone } from "../components/EmptyTodosNone";
 import { TodoContext } from "../context/TodoContext";
 import { Modal } from "../components/TodoModal";
+import { TodoForm } from "../components/TodoForm";
 import React from "react";
 
 function AppUI() {
@@ -53,7 +54,11 @@ function AppUI() {
       <CreateTodoBtn setOpenModal={setOpenModal} />
       {/* </React.Fragment> */}
 
-      {openModal && <Modal>Me guastan las burgers</Modal>}
+      {openModal && (
+        <Modal>
+          <TodoForm />
+        </Modal>
+      )}
     </>
   );
 }
