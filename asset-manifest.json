@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/laragon/www/Cursos/TODO-Machine/build/static/css/main.9a4984dc.css",
-    "main.js": "/laragon/www/Cursos/TODO-Machine/build/static/js/main.d92b5371.js",
-    "index.html": "/laragon/www/Cursos/TODO-Machine/build/index.html",
-    "static/media/completev.svg": "/laragon/www/Cursos/TODO-Machine/build/static/media/completev.fecb5d172078902f6a634150d0cd3909.svg",
-    "static/media/deletex.svg": "/laragon/www/Cursos/TODO-Machine/build/static/media/deletex.8715004f24f4d569f1a727ba202ce463.svg",
-    "main.9a4984dc.css.map": "/laragon/www/Cursos/TODO-Machine/build/static/css/main.9a4984dc.css.map",
-    "main.d92b5371.js.map": "/laragon/www/Cursos/TODO-Machine/build/static/js/main.d92b5371.js.map"
+    "main.css": "/TODO-Machine/static/css/main.9a4984dc.css",
+    "main.js": "/TODO-Machine/static/js/main.e19a3d52.js",
+    "index.html": "/TODO-Machine/index.html",
+    "static/media/completev.svg": "/TODO-Machine/static/media/completev.fecb5d172078902f6a634150d0cd3909.svg",
+    "static/media/deletex.svg": "/TODO-Machine/static/media/deletex.8715004f24f4d569f1a727ba202ce463.svg",
+    "main.9a4984dc.css.map": "/TODO-Machine/static/css/main.9a4984dc.css.map",
+    "main.e19a3d52.js.map": "/TODO-Machine/static/js/main.e19a3d52.js.map"
   },
   "entrypoints": [
     "static/css/main.9a4984dc.css",
-    "static/js/main.d92b5371.js"
+    "static/js/main.e19a3d52.js"
   ]
 }
