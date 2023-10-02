@@ -1,5 +1,7 @@
+import "../styles/EmptyTodos.css";
+
 function EmptyTodosNone() {
-  return <p>Crea tu primer TODO</p>;
+  return <p className="textito">Crea tu primer tarea</p>;
 }
 
 export { EmptyTodosNone };
