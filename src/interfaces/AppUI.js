@@ -32,8 +32,8 @@ function AppUI() {
         {loading && (
           <>
             <TodosLoading />
-            <TodosLoading />
-            <TodosLoading />
+            {/* <TodosLoading />
+            <TodosLoading /> */}
           </>
         )}
         {error && <TodosError />}
